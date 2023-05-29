@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use App\Models\Product;
 use Illuminate\Http\Request;
+////////////////////////////////////
+////////////////////////////////////
 // question 5
 class ProductController extends Controller
 {
