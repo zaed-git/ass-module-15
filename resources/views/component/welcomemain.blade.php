@@ -1,4 +1,5 @@
 <!-- cycle section start -->
+  <!-- {{ asset('css/bootstrap/bootstrap.min.css') }} -->
 <div class="cycle_section layout_padding">
          <div class="container">
             <h1 class="cycle_taital">Our cycle</h1>
@@ -8,7 +9,7 @@
                   <div class="col-md-6">
                      <div class="box_main">
                         <h6 class="number_text">01</h6>
-                        <div class="image_2"><img src="images/img-2.png"></div>
+                        <div class="image_2"><img src="{{ asset('images/img-2.png') }}"></div>
                      </div>
                   </div>
                   <div class="col-md-6">
@@ -34,7 +35,7 @@
                   <div class="col-md-6">
                      <div class="box_main_3">
                         <h6 class="number_text_2">02</h6>
-                        <div class="image_2"><img src="images/img-3.png"></div>
+                        <div class="image_2"><img src="{{ asset('images/img-3.png') }}"></div>
                      </div>
                   </div>
                </div>
@@ -44,7 +45,7 @@
                   <div class="col-md-6">
                      <div class="box_main_3">
                         <h6 class="number_text_2">03</h6>
-                        <div class="image_2"><img src="images/img-4.png"></div>
+                        <div class="image_2"><img src="{{ asset('images/img-4.png') }}"></div>
                      </div>
                   </div>
                   <div class="col-md-6">
@@ -86,10 +87,10 @@
                         <h1 class="client_taital">Says Customers</h1>
                         <div class="client_section_2">
                            <div class="client_left">
-                              <div><img src="images/client-img.png" class="client_img"></div>
+                              <div><img src="{{ asset('images/client-img.png') }}" class="client_img"></div>
                            </div>
                            <div class="client_right">
-                              <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              <div class="quote_icon"><img src="{{ asset('images/quote-icon.png') }}"></div>
                               <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                               <h3 class="client_name">Channery</h3>
                            </div>
@@ -103,10 +104,10 @@
                         <h1 class="client_taital">Says Customers</h1>
                         <div class="client_section_2">
                            <div class="client_left">
-                              <div><img src="images/client-img.png" class="client_img"></div>
+                              <div><img src="{{ asset('images/client-img.png') }}" class="client_img"></div>
                            </div>
                            <div class="client_right">
-                              <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              <div class="quote_icon"><img src="{{ asset('images/quote-icon.png') }}"></div>
                               <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                               <h3 class="client_name">Channery</h3>
                            </div>
@@ -120,10 +121,10 @@
                         <h1 class="client_taital">Says Customers</h1>
                         <div class="client_section_2">
                            <div class="client_left">
-                              <div><img src="images/client-img.png" class="client_img"></div>
+                              <div><img src="{{ asset('images/client-img.png') }}" class="client_img"></div>
                            </div>
                            <div class="client_right">
-                              <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              <div class="quote_icon"><img src="{{ asset('images/quote-icon.png') }}"></div>
                               <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                               <h3 class="client_name">Channery</h3>
                            </div>
@@ -150,7 +151,7 @@
                <div class="row">
                   <div class="col-sm-4">
                      <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/img-6.png"></div>
+                        <div class="zoomout frame"><img src="{{ asset('images/img-6.png') }}"></div>
                         <div class="padding_15">
                            <h2 class="speed_text">Speed cycle</h2>
                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -160,7 +161,7 @@
                   </div>
                   <div class="col-sm-4">
                      <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/img-7.png"></div>
+                        <div class="zoomout frame"><img src="{{ asset('images/img-7.png') }}"></div>
                         <div class="padding_15">
                            <h2 class="speed_text">Speed cycle</h2>
                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -170,7 +171,7 @@
                   </div>
                   <div class="col-sm-4">
                      <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/img-8.png"></div>
+                        <div class="zoomout frame"><img src="{{ asset('images/img-8.png') }}"></div>
                         <div class="padding_15">
                            <h2 class="speed_text">Jaump cycle</h2>
                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
@@ -183,27 +184,4 @@
          </div>
       </div>
       <!-- news section end -->
-      <!-- contact section start -->
-      <div class="contact_section layout_padding">
-         <div class="container">
-            <div class="contact_main">
-               <h1 class="request_text">A Call Back</h1>
-               <form action="/action_page.php">
-                  <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Name" name="Name">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Email" name="Name">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
-                  </div>
-                  <div class="form-group">
-                     <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                  </div>
-               </form>
-               <div class="send_btn"><a href="#">SEND</a></div>
-            </div>
-         </div>
-      </div>
-      <!-- contact section end -->
+      

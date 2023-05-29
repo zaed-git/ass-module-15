@@ -10,7 +10,7 @@
                   
                   <!--  -->
                   @error('name')
-                <div class="alert alert-danger">{{ $message }}</div>
+                  <h2 class="text-danger">{{ $message }}</h2>
             @enderror
                   <!--  -->
                     </div>
@@ -20,7 +20,7 @@
                      <input type="text" class="email-bt" placeholder="Email" name="email" value="{{ old('email') }}">
                   <!--  -->
                   @error('email')
-                <div class="alert alert-danger">{{ $message }}</div>
+                  <h2 class="text-danger">{{ $message }}</h2>
             @enderror
                   <!--  -->
                   
@@ -32,7 +32,7 @@
                      {{ old('message') }}
                      </textarea>
                      @error('message')
-                <div class="alert alert-danger">{{ $message }}</div>
+                     <h2 class="text-danger">{{ $message }}</h2>
             @enderror
 
                   </div>

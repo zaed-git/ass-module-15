@@ -36,7 +36,7 @@
       <!-- header section start -->
       <div class="header_section header_bg">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+            <a href="index.html" class="logo"><img src="{{ asset('images/logo.png') }}"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -50,19 +50,15 @@
                   <li class="nav-item active">
                      <a class="nav-link" href="/home">Home</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="about.html">About</a>
-                  </li>
+                  
                  
-                  <li class="nav-item">
-                     <a class="nav-link" href="shop.html">Shop</a>
-                  </li>
+                 
                  
                   <li class="nav-item">
                      <a class="nav-link" href="/contact">Contact Us</a>
                   </li>
 				   <li class="nav-item">
-                     <a class="nav-link" href="register.html">Register
+                     <a class="nav-link" href="/signup">Sign UP
                   </li>
                </ul>
                <form class="form-inline my-2 my-lg-0">
